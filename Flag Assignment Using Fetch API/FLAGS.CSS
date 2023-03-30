@@ -1,0 +1,43 @@
+/* - KIANA'S CSS FLAG ASSIGNMENT */
+
+body {
+    background-color:white;
+}
+
+h1 { color:#72A0C1;
+    text-align: center;
+}
+
+
+h2 { color:white;
+    text-align: left;
+}
+
+
+#search-section {
+    height: 50vh;
+    width: 65vw;
+    margin-left: 18%;
+    margin-right: 10%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1674673353768-727419b54909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80');
+    background-size: cover;
+}
+
+#flag-section {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap :20px; /* Responsible for adding space between the elements */
+    margin-top: 20px;
+}
+
+#flag-section div {
+    width: 100%;
+}
+
+#flag-section img {
+    width: 100%;
+}
